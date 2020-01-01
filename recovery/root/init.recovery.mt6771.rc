@@ -8,6 +8,10 @@ on fs && property:ro.debuggable=0
     # set charging free due to it wait for USB activation
     start adbd
 
+on fs
+    wait /dev/block/platform/bootdevice/
+    symlink /dev/block/platform/bootdevice/ /dev/block/bootdevice
+
 on post-fs
     # Support A/B feature for EMMC and UFS boot region
     symlink /dev/block/sda /dev/block/mmcblk0boot0
