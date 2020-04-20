@@ -41,9 +41,6 @@ TARGET_NO_BOOTLOADER := true
 # Broken Rules
 BUILD_BROKEN_DUP_RULES := true
 
-# Charger
-BOARD_CHARGER_ENABLE_SUSPEND := true
-
 # Display
 TARGET_USES_HWC2 := true
 

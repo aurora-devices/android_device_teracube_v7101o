@@ -9,6 +9,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.camera.sound.forced=0 \
     ro.audio.silent=0
 
+# Charger
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.charger.enable_suspend=true
+
 # Display (Graphics, SurfaceFlinger, Video)
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.composition.type=gpu \
