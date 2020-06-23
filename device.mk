@@ -70,10 +70,6 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-# Overlays -- replace official
-PRODUCT_PACKAGES += \
-    DummyOverlay
-
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
