@@ -34,6 +34,11 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     Snap
 
+# HIDL
+PRODUCT_PACKAGES += \
+    libhidltransport \
+    libhwbinder
+
 # ImsInit hack
 PRODUCT_PACKAGES += \
     ImsInit
