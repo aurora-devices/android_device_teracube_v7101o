@@ -9,6 +9,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.camera.sound.forced=0 \
     ro.audio.silent=0
 
+# Camera
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera
+
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.charger.enable_suspend=true
