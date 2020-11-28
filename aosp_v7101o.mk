@@ -12,12 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from v7101o device
 $(call inherit-product, device/teracube/v7101o/device.mk)
 
-# Inherit some common Lineage stuff.
-TARGET_FACE_UNLOCK_SUPPORTED := true
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+# Inherit some common PixelExperience stuff.
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := rr_v7101o
+PRODUCT_NAME := aosp_v7101o
 PRODUCT_DEVICE := v7101o
 PRODUCT_BRAND := Teracube
 PRODUCT_MODEL := Teracube One

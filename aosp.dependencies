@@ -1,8 +1,8 @@
 [
   {
-    "remote"     : "github",
     "repository" : "TheMalachite/vendor_teracube_v7101o",
     "target_path": "vendor/teracube/v7101o",
-    "revision"   : "Q"
+    "remote"     : "github",
+    "revision"   : "eleven"
   }
 ]
