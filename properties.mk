@@ -27,6 +27,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
     debug.sf.early_phase_offset_ns=1500000 \
     debug.sf.latch_unsignaled=1 \
+    persist.sys.sf.disable_blurs=1 \
     qemu.hw.mainkeys=0 \
     ro.opengles.version=196610 \
     ro.sf.blurs_are_expensive=1 \
