@@ -1,4 +1,5 @@
 allow system_app proc_pagetypeinfo:file { getattr open read };
+allow system_app proc_vmallocinfo:file { getattr open read };
 allow system_app sysfs_zram:dir { read search };
 allow system_app sysfs_zram:file { getattr open read };
 allow system_app storaged:binder { call };
