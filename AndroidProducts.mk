@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_v7101o.mk
+    $(LOCAL_DIR)/aurora_v7101o.mk
