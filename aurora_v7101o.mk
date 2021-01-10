@@ -19,13 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 $(call inherit-product, device/teracube/v7101o/device.mk)
 $(call inherit-product, device/teracube/v7101o/mtk-hals.mk)
 
-# Inherit some common PixelExperience stuff.
-TARGET_USES_AOSP_RECOVERY := true
-TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Aurora stuff.
+$(call inherit-product, vendor/aurora/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_v7101o
+PRODUCT_NAME := aurora_v7101o
 PRODUCT_DEVICE := v7101o
 PRODUCT_BRAND := Teracube
 PRODUCT_MODEL := Teracube One
